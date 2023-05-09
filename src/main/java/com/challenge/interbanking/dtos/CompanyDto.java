@@ -10,6 +10,8 @@ import java.time.*;
 import lombok.Data;
 import java.util.*;
 import java.util.stream.Collectors;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
 /**
@@ -17,6 +19,8 @@ import org.springframework.format.annotation.DateTimeFormat;
  * @author Agustin Pueblas
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CompanyDto {
 
     private Long id;
