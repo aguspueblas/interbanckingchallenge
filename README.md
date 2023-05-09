@@ -7,8 +7,11 @@ Las excepciones estan centralizadas.
 
 Endpoints:
 GET company/ Devuelve todas las companias junto con sus transferencias relacionadas.
+
 GET company/transferlastmonth Devuelve las companias que hicieron transferencias el último mes.
+
 GET company/addlastmonth Devuelve las companias que se adhirieron el último mes.
+
 POST company/ Genera la adhesión de una empresa.
 
 POST transfer/ Genera una transferencia.
